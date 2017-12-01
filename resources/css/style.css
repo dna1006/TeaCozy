@@ -14,19 +14,29 @@ header {
   width: 100%;
   z-index: 5;
   border-bottom: 1px solid seashell;
+  align-items: center;
 }
 
 .logo {
   display: flex;
   flex-grow: 1;
   height: 50px;
-  width: 100px;
   margin-left: 10px;
 }
 
+.logo img {
+  width: 150px;
+}
+
+nav {
+  align-content: center;
+}
 .logonav span {
-  display: flex;
-  text-align: center;
+  display: inline-block;
   text-decoration: underline;
+}
+
+.links {
+  padding: 0 20px;
   color: white;
 }
