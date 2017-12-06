@@ -15,6 +15,8 @@ header {
   z-index: 5;
   border-bottom: 1px solid seashell;
   align-items: center;
+  opacity: 1;
+  background-color: black;
 }
 
 .logo {
@@ -39,4 +41,47 @@ nav {
 .links {
   padding: 0 20px;
   color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.missionbanner {
+  background-color: black;
+  width: 100%;
+}
+
+.menu {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px;
+}
+
+.item {
+  width: 300px;
+  padding: 5px 5px;
 }
