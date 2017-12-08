@@ -47,6 +47,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 69px;
 }
 
 .mission {
@@ -55,6 +56,7 @@ nav {
   width: 1200px;
   display: flex;
   align-items: center;
+  margin: auto;
 }
 
 .missionbanner {
@@ -66,6 +68,7 @@ nav {
   width: 1000px;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .items {
@@ -73,6 +76,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .item img {
@@ -83,5 +87,33 @@ nav {
 
 .item {
   width: 300px;
-  padding: 5px 5px;
+  padding: 10px 10px;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.locations h2 {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.addressbox {
+  background-color: black;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  margin-top: 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
