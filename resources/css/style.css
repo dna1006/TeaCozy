@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-top: 0;
 }
 
 header {
@@ -96,7 +97,6 @@ nav {
   width: 1200px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   margin: auto;
   margin-top: 50px;
@@ -116,4 +116,13 @@ nav {
   margin: 20px;
   display: flex;
   flex-direction: column;
+}
+
+.contact {
+  height: 200px;
+}
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
 }
